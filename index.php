@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Course Mania</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header and navbar starts -->
+  <nav class="navbar navbar-expand-xl" style="background-color: #4ABDAC;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php"><i class="fa-brands fa-3x fa-studiovinari"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Signup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Logout</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Payments</a></li>
+              <li><a class="dropdown-item" href="#">Feedbacks</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">My Profile</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled admin-link" aria-disabled="true">Admin</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Header and navbar ends -->
+
+  <!-- Video section starts -->
+  <div class="video-container container-fluid ps-0">
+    <!-- <video autoplay muted loop id="video-bg">
+      <source src="assets/ganda.mp4" type="video/mp4">
+    </video> -->
+    <img src="assets/bg-video.gif" alt="" class="img-fluid">
+    <div class="video-content">
+      <h2>The Next <span class="vid-special-word">BIG</span> thing<div>is <span class="vid-special-word">LEARNING</span></div>
+      </h2>
+      <a href="#" class="explore-btn mt-2">EXPLORE COURSES <i class="fa-solid fa-arrow-right fa-1x fa-beat-fade ms-2"></i></a>
+    </div>
+  </div>
+
+
+  <!-- Video section ends -->
+
+  <!-- Text banner starts -->
+  <section class="container mt-5">
+    <div class="row text-banner">
+      <div class="banner-item col-sm-4 fs-3"><i class="fa-solid fa-chalkboard-user" style="color: #fc4a1a;"></i>Professional Experts</div>
+      <div class="banner-item col-sm-4 fs-3"><i class="fa-solid fa-face-smile-wink" style="color: #fc4a1a;"></i>Lifetime Guarantee</div>
+      <div class="banner-item col-sm-4 fs-3"><i class="fa-solid fa-book-open-reader" style="color: #fc4a1a;"></i>100+ courses for you</div>
+    </div>
+  </section>
+
+  <!-- Text banner ends -->
+
+  <!-- Popular courses section starts -->
+  <section class="course-container container mt-5">
+    <h2 class="section-heading">Popular <span class="section-heading-word">courses</span> that people love</h2>
+    <div class="course-cards-grid">
+      <div class="card" style="width: 18rem;">
+        <img src="assets/php-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-head d-flex justify-content-between">
+            <span class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title">PHP Core</h5>
+              <i class="card-title fa-solid fa-circle-info ms-2" style="color:grey;" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="by Alexander Cummins"></i>
+            </span>
+            <h5 class="price-tag">$499</h5>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn form-submit-btn">Enroll now</a>
+        </div>
+
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assets/php-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-head d-flex justify-content-between">
+            <span class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title">PHP Core</h5>
+              <i class="card-title fa-solid fa-circle-info ms-2" style="color:grey;" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="by Alexander Cummins"></i>
+            </span>
+            <h5 class="price-tag">$499</h5>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn form-submit-btn">Enroll now</a>
+        </div>
+
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assets/php-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-head d-flex justify-content-between">
+            <span class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title">PHP Core</h5>
+              <i class="card-title fa-solid fa-circle-info ms-2" style="color:grey;" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="by Alexander Cummins"></i>
+            </span>
+            <h5 class="price-tag">$499</h5>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn form-submit-btn">Enroll now</a>
+        </div>
+
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assets/php-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-head d-flex justify-content-between">
+            <span class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title">PHP Core</h5>
+              <i class="card-title fa-solid fa-circle-info ms-2" style="color:grey;" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="by Alexander Cummins"></i>
+            </span>
+            <h5 class="price-tag">$499</h5>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn form-submit-btn">Enroll now</a>
+        </div>
+
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assets/php-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-head d-flex justify-content-between">
+            <span class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title">PHP Core</h5>
+              <i class="card-title fa-solid fa-circle-info ms-2" style="color:grey;" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="by Alexander Cummins"></i>
+            </span>
+            <h5 class="price-tag">$499</h5>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn form-submit-btn">Enroll now</a>
+        </div>
+
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assets/php-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="card-head d-flex justify-content-between">
+            <span class="d-flex justify-content-between align-items-center">
+              <h5 class="card-title">PHP Core</h5>
+              <i class="card-title fa-solid fa-circle-info ms-2" style="color:grey;" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="by Alexander Cummins"></i>
+            </span>
+            <h5 class="price-tag">$499</h5>
+          </div>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn form-submit-btn">Enroll now</a>
+        </div>
+
+      </div>
+    </div>
+    <h5 class="view-courses-btn mt-5 "><a href="">view more courses.. <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h5>
+  </section>
+  <!-- Popular courses section ends -->
+
+  <!-- Contact section starts -->
+
+  <section class="contact-container mt-5">
+    <h2 class="section-heading">Contact Me</h2>
+    <form action="#" class="needs-validation">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatingInput1" placeholder="Full Name" required>
+        <label for="floatingInput">Full Name</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput2" placeholder="email@gmail.com" required>
+        <label for="floatingInput">Email address</label>
+      </div>
+
+      <div class="d-flex gap-5 mb-3">
+        <div class="input-group">
+          <input type="number" class="form-control" id="floatingInput3" placeholder="phone number" required>
+        </div>
+        <div class="input-group">
+          <select class="form-select form-control" required>
+            <option selected>Please select your gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Others</option>
+          </select>
+          <div class="invalid-feedback">Please select your gender.</div>
+        </div>
+      </div>
+
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required style="height: 150px;"></textarea>
+        <label for="floatingTextarea">Please write your message here</label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label text-light" for="invalidCheck">
+          I confirm that data provided above is correct
+        </label>
+      </div>
+
+      <div class="d-flex justify-content-center mt-3">
+        <button class="btn form-submit-btn" type="submit">Submit</button>
+      </div>
+    </form>
+
+  </section>
+
+  <!-- Contact section ends -->
+
+  <!-- Testimonials section starts -->
+  <h2 class="section-heading">What <span class="section-heading-word">people</span> say about us</h2>
+  <section class="container-fluid testimonial-section d-flex justify-content-center align-items-center">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+          <div class="card-header d-flex justify-content-between">
+            <span>Sunny Deol</span>
+            <span><i class="fa-solid fa-user"></i></span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Movie Actor</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up t Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quas magnam similique voluptatem debitis ducimus accusantium iste repellat hic expedita? he bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="card text-bg-primary mb-3" style="max-width: 25rem;">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials section ends -->
+
+  <!-- Footer section starts -->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+            <p>
+              <a class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+            <p>
+              <a class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a class="text-white">Help</a>
+            </p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-3">
+
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <div class="p-3">
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-google"></i></a>
+
+            <a class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <!-- Footer section ends -->
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://kit.fontawesome.com/1e9462cd43.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+/* custom css variables */
+:root {
+    --primary-color: #4ABDAC;
+    --color-yellow: #F7B733;
+    --color-orange: #FC4A1A;
+    --secondary-color-: #efefef;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+}
+
+.admin-link {
+    color: var(--bs-nav-link-disabled-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--color-yellow) !important;
+}
+
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+}
+
+/* .video-overlay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+} */
+.video-content {
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    z-index: 2;
+    text-align: center;
+    color: white;
+
+}
+
+.video-content h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.vid-special-word {
+    color: var(--color-orange);
+}
+
+.explore-btn {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1.5px solid var(--color-yellow);
+    transition: all 0.5s ease-in-out;
+    font-size: 20px;
+}
+
+.explore-btn:hover {
+    border-color: var(--color-orange);
+}
+
+.text-banner {
+    height: 5rem;
+    color: var(--color-yellow);
+}
+
+.banner-item {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/* section heading starts */
+.section-heading {
+    text-align: center;
+    color: white;
+    margin: 40px 0px;
+}
+
+.section-heading-word {
+    color: var(--color-orange);
+}
+
+/* section heading ends */
+
+/* popular course section starts */
+.course-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 3rem;
+}
+
+.card {
+    box-shadow: rgba(83, 83, 83, 0.9) 0px 8px 24px !important;
+}
+
+.card-body {
+    background-color: white;
+}
+.price-tag {
+    color: var(--primary-color);
+}
+
+.view-courses-btn {
+    text-align: center;
+    color: var(--color-yellow);
+}
+
+.view-courses-btn a {
+    color: var(--color-yellow);
+}
+
+/* popular course section ends */
+
+/* Contact us section start */
+.contact-container {
+    margin: 0 auto;
+    padding: 1px 20px 50px 20px;
+    max-width: 40rem;
+    border-radius: 10px;
+    background-color: #008b77;
+}
+
+.form-control:focus {
+    border-color: var(--color-yellow);
+    box-shadow: 0px 1px 1px var(--color-yellow) inset, 0px 0px 8px var(--color-orange);
+}
+
+.form-submit-btn {
+    background-color: var(--color-orange);
+    color: white;
+    transition: all 0.2s ease-out;
+}
+
+.form-submit-btn:hover {
+    background-color: #b32700;
+    color: white;
+}
+
+/* Contact us section ends */
+
+/* Owl carousel code starts */
+.testimonial-section {
+    height: 40rem;
+    width: 100%;
+    background-image: url("../assets/think3.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Owl carousel code ends */
+
+
+/************************** Media queries starts */
+
+@media only screen and (max-width: 920px) {
+    .course-cards-grid {
+        grid-template-columns: repeat(2, auto);
+        row-gap: 3rem;
+    }
+    .testimonial-section{
+        height: 30rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .course-cards-grid {
+        /* grid-template-columns:  repeat(2,auto); */
+        row-gap: 3rem;
+    }
+
+    .video-content h2 {
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 15rem !important;
+    }
+    .testimonial-section{
+        height: 25rem;
+    }
+    .testimonial-section .card{
+        width: 20rem !important;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .video-content>h2,
+    a {
+        font-size: 1.5rem;
+    }
+
+    .video-content {
+        top: 25%;
+    }
+
+    .explore-btn {
+        font-size: 10px;
+    }
+
+    .banner-item {
+        font-size: 16px !important;
+        margin-bottom: 5px;
+    }
+
+    .card {
+        width: 13rem !important;
+    }
+
+    .card .card-title,
+    .card .price-tag {
+        font-size: 1rem !important;
+    }
+
+    .card-body {
+        font-size: 12px !important;
+        padding: 13px !important;
+    }
+    .form-submit-btn{
+        font-size: 0.8rem !important;
+    }
+    .testimonial-section{
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .course-cards-grid {
+        grid-template-columns:  repeat(1,auto);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .testimonial-section .card{
+        width: 12rem !important;
+        font-size: 10px;
+    }
+    .testimonial-section .card .card-title{
+        font-size: 0.8rem;
+    }
+   
+}
+
+@media only screen and (max-width: 350px) {
+
+    .video-content>h2,
+    a {
+        font-size: 1.2rem;
+    }
+}
+
+/************************** Media queries ends */
